@@ -1,0 +1,49 @@
+body {
+box-sizing: border-box;
+margin: 0;
+}
+
+h1 {
+    color: white;
+}
+
+header {
+    background-color: #B865F1;
+    margin: 0;
+    padding: 0;
+}
+
+header > * {
+    display: inline-block;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+header > h1 {
+    width: 5%;
+}
+
+header > form {
+    width: 70%;
+}
+
+header > navbar {
+    width: 20%;
+}
+
+.col {
+    float: left;
+    /*margin: 1vw;*/
+    width: 33.33%;
+}
+
+.col .pin div img {
+    border-radius: 10%;
+    width: 100%
+}
+
+.col .pin section.pin-title {
+    color: rgb(89, 32, 128);
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
