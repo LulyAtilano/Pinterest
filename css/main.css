@@ -3,10 +3,6 @@ box-sizing: border-box;
 margin: 0;
 }
 
-h1 {
-    color: white;
-}
-
 header {
     background-color: #B865F1;
     margin: 0;
@@ -20,6 +16,7 @@ header > * {
 }
 
 header > h1 {
+    color: white;
     width: 5%;
 }
 
@@ -27,14 +24,24 @@ header > form {
     width: 70%;
 }
 
+header > form > label > i {
+    color: white;
+}
+
 header > navbar {
     width: 20%;
 }
 
+header > navbar > nav > a {
+    color: white;
+    padding: 2ex;
+    size: 1em;
+    text-decoration: none;
+}
 .col {
     float: left;
-    /*margin: 1vw;*/
-    width: 33.33%;
+    padding: 0.2vw;
+    width: 32%;
 }
 
 .col .pin div img {
@@ -46,4 +53,10 @@ header > navbar {
     color: rgb(89, 32, 128);
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
+    top: 0;
+}
+
+.pin:hover {
+    transform:scale(0.8); 
+    -webkit-transform:scale(0.8);
 }
