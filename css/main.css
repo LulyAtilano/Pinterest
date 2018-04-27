@@ -1,6 +1,7 @@
 body {
-box-sizing: border-box;
-margin: 0;
+    background-color: rgb(252, 232, 232);
+    box-sizing: border-box;
+    margin: 0;
 }
 
 header {
@@ -29,19 +30,21 @@ header > form > label > i {
 }
 
 header > navbar {
+    position: relative;
     width: 20%;
 }
 
 header > navbar > nav > a {
     color: white;
+    font-size: 127%;
     padding: 2ex;
-    size: 1em;
+    position: relative;
     text-decoration: none;
 }
 .col {
     float: left;
     padding: 0.2vw;
-    width: 32%;
+    width: 24.2%;
 }
 
 .col .pin div img {
